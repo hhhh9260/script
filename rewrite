@@ -21,7 +21,7 @@ https://equities.sunwaystech.com/guess url script-request-body https://gitee.com
 #爱企查
 https://aiqicha.baidu.com/zxcenter url script-request-header ifaqc.js
 #悦看点
-https://yuekandian.yichengw.cn/api/v1/reward/coin url script-request-header https://raw.fastgit.org/byxiaopeng/myscripts/main/ykd.js
+https://yuekandian.yichengw.cn/api/v1/reward/coin url script-request-header https://github.com/hhhh9260/script/raw/main/ykd
 
 
 #番茄小说
