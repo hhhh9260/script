@@ -38,3 +38,8 @@ https://api.st615.com/v1/user/info? url script-request-header https://raw.github
 
 #都爱玩
 .+/api/auth/channel.+ url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/daw.js
+api-sport.chenglie.tech/s.+ig url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
+api-sport.chenglie.tech/wit.+/app.+ url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
+#多走路
+api-sport.chenglie.tech/s.+ig url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
+api-sport.chenglie.tech/wit.+/app.+ url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
