@@ -1,5 +1,8 @@
+hostname=mapi.shuijiaobao.cn,api.smartcinema.com.cn, newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com, equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,
+-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech
+
 #睡觉宝
-https://mapi.shuijiaobao.cn/login/code url script-request-body https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js
+https:///login/code url script-request-body https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js
 
 #移动电影院
 ^https://api.smartcinema.com.cn/.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/ydyy.js
@@ -39,8 +42,6 @@ https://api.st615.com/v1/user/info\?token=\S+ url script-request-header http://4
 
 #都爱玩
 .+/api/auth/channel.+ url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/daw.js
-api-sport.chenglie.tech/s.+ig url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
-api-sport.chenglie.tech/wit.+/app.+ url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
 #多走路
 api-sport.chenglie.tech/s.+ig url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
 api-sport.chenglie.tech/wit.+/app.+ url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js
