@@ -35,6 +35,7 @@ https://api.cashtoutiao.com/frontend/sign/record\S+ url script-request-body http
 
 #九章
 https://api.st615.com/v1/user/info? url script-request-header https://raw.githubusercontent.com/xl2101200/-/main/jztt.js
+https://api.st615.com/v1/user/info\?token=\S+ url script-request-header http://47.101.146.160/scripts/jzread.js
 
 #都爱玩
 .+/api/auth/channel.+ url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/daw.js
