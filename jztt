@@ -25,20 +25,16 @@ hostname = api.st615.com
 */
 
 // [task_local]
-// */60 * * * * http://nm66.top/jzread.js, tag=柠檬九章头条, img-url=circles.hexagongrid.fill.system, enabled=true
+// * */1 * * * http://nm66.top/jzread.js, tag=柠檬九章头条, img-url=circles.hexagongrid.fill.system, enabled=true
 
 const $ = new Env('柠檬九章头条');
 let status;
 status = (status = ($.getval("jzreadstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
 let jzreadurlArr = [],jzreadcount = ''
 let jzreadurl= $.isNode() ? (process.env.jzreadurl ? process.env.jzreadurl : "") : ($.getdata('jzreadurl') ? $.getdata('jzreadurl') : "")
-let cashtx= $.isNode() ? (process.env.cashtx ? process.env.cashtx : "") : ($.getdata('cashtx') ? $.getdata('cashtx') : "")
+let cashtx= $.isNode() ? (process.env.cashtx ? process.env.cashtx : "5") : ($.getdata('cashtx') ? $.getdata('cashtx') : "5")
 let jzreadurls = ""
 const logs =0;
-
-var hours = new Date().getHours();
-var s = new Date().getMinutes();
-
 var timestamp = Math.round(new Date().getTime()/1000).toString();
 !(async () => {
   if (typeof $request !== "undefined") {
@@ -60,9 +56,6 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
 
      await benefit()
        await clock()
-       await share()
-       await share()
-       await share()
        await cashads()
        await info()
        await doublesign()
@@ -74,8 +67,9 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
        await doads(11)
        await doads(77)
        await getbenefit()
-
-       //await info()
+       await getreadlist()
+       await videolist()
+       await info()
 
 
   }
@@ -101,9 +95,6 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
 
        await benefit()
        await clock()
-       await share()
-       await share()
-       await share()
        await cashads()
        await info()
        await doublesign()
@@ -115,8 +106,18 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
        await doads(11)
        await doads(77)
        await getbenefit()
-
-      // await info()
+       await getreadlist()
+                     await share(readlist[1].id)
+              await $.wait(1000)
+              await share(readlist[2].id)
+              await $.wait(1000)
+              await share(readlist[3].id)
+              await $.wait(1000)
+              await share(readlist[4].id)
+              await $.wait(1000)
+              await share(readlist[5].id)
+       await getvideo()
+       await info()
 	        }
       }
   }
@@ -280,11 +281,7 @@ async function info(){
         if(result.code == 0)
           $.log("invite_code："+result.data['invite_code']+"\nmy coin："+result.data.integral+"\nwork_money："+result.data['work_money']+"\nmoney："+result.data.money)
     if(result.data.money>cashtx){
-        $.log('现在时间为：'+hours+":"+s)
-        if(hours >= 9){
         await cash(cashtx)
-            
-        }else {$.log("现在没到9点不能提现\n每日自动0.3")}
     }
        if(result.code != 0)
           
@@ -549,7 +546,7 @@ async function doads(id){
    })
   }
   
-  async function share(){
+  async function share(id){
  return new Promise((resolve) => {
 
    
@@ -557,7 +554,7 @@ async function doads(id){
 
     let nm = {
      url: `https://api.st615.com/v1/article/share`,
-     body:  `device=iPhone%208%20Plus&id=&os=14.4&source=article&token=`+token,
+     body:  `device=iPhone%208%20Plus&id=${id}&os=14.4&source=article&token=`+token,
             headers:{
 'Host': 'api.st615.com',
 'Content-Type':' application/x-www-form-urlencoded; charset=utf-8',
@@ -625,7 +622,7 @@ async function doads(id){
     })
    })
   }
-  async function cash(){
+  async function cash(money){
  return new Promise((resolve) => {
 
    
@@ -633,7 +630,7 @@ async function doads(id){
 
     let nm = {
      url: `https://api.st615.com/v1/cash/withdraw-new`,
-     body:  `token=${token}&type=1&money=5`,
+     body:  `token=${token}&type=1&money=${money}`,
            headers:{
 'Host': 'api.st615.com',
 'Content-Type':' application/x-www-form-urlencoded; charset=utf-8',
