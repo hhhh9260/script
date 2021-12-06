@@ -1,0 +1,34 @@
+
+/**
+ * @fileoverview Template to compose HTTP reqeuest.
+ * 
+ */
+
+const url = `https://api.m.jd.com/client.action?functionId=noahRedRainLottery&client=wh5&clientVersion=1.0.0&body=%7B%22actId%22%3A%22RRA3DTEaEEhpMCpHReXTZcWn7ejYbAV%22%7D&_=1638806523432&callback=jsonp2`;
+const method = `GET`;
+const headers = {
+'Cookie' : `CCC_SE=ADC_KYAiqS22Dji3HonMpVTLk%2b8H7G3Zgq7jxFYAFt31a9SXolEP3mlSxg72nmrbdqAkI2ZsdLvpopi%2bp78BSHzho6%2boEjbXfVaVzA0yVeDsH9j1tgUVvg1BdRRISbkLnVxnOoQgAejTsCLayLOF1dTceXGymybPQTGQUDmRcJY1M%2fSLaGZfFSeIwjKiPkUXZJxHxx%2fX1sbhM9xwdMa%2fk6RC6LruxtN0G%2fpVpOdNiezKiT0ocPBpMLUV1w841QVWJ6EvaiUtYvb5XSJucefoSD96z3YathC0MCyJNDMDa4%2f8JhrE6e5cz4wSEGMV82ApZRgwwX8JiW4Yt%2fl8C0VF%2fIxsHkOiAFnH4ldOm2%2fOwdn3eOISp3zf4VOnGdtFwsixVoPKiu7XvjuFL%2bOGXYLW30TfU1GZ24nPKP4kFWgjANpVU9vqwqLJUzZP9HfbPQSHexXaNeeDo5WqOCR%2bpOIHcJUqhl37yQhSuO135V2AMFKNTHTWSDnQ9LknrL55M2xtO%2f%2byASnXmQtZSIIQczVG82MxV2C6SJtAK9G3x%2bFh9yNTck0%3d; unpl=V2_ZzNtbUUAQEZ2DE4GeRpUBGJRRVQSVUNGdAtFXS4aW1UwVEdfclRCFnUURldnGFoUZgIZXEFcQhZFCEZkexhdBmYFE1pAVXMldQlHVXsdWwdgBSJeQmdCJSILEgBzSw9SYVdBCUtRF0ByWkNdLBxfB24BQF5HVUtGRThGXHwpbDVmMxNtQFZCF3wKQFZ5HWxOCQJfCkEDFx0nWxFSL0oIDGFXR1oQUkpCcAtEXXlLXwBlC0FtQ2dA; network=wifi; _tj_rvurl=https%3A//wq.jd.com/mshop/homeindex%3FshopId%3D723699%26cu%3Dtrue%26utm_source%3Dkong%26utm_medium%3Djingfen%26utm_campaign%3Dt_1002070633_%26utm_term%3D0ee4018794bd44a3929f5b5c5746d165; jxsid_s_t=1638806442406; jxsid_s_u=https%3A//shop.m.jd.com/; PPRD_P=LOGID.1638541732024.1549701533-EA.17005.2.140-CT.138570.1.1-UUID.f2ee9cbf7ebe87ed6c48f42383c2439b; __jda=153791336.f2ee9cbf7ebe87ed6c48f42383c2439b.1638335423.1638802437.1638804920.93; __jdb=153791336.5.f2ee9cbf7ebe87ed6c48f42383c2439b|93.1638804920; __jdc=153791336; __jdv=153791336%7Ckong%7Ct_1002070633_%7Cjingfen%7C0ee4018794bd44a3929f5b5c5746d165%7C1638806441732; __wga=1638806441729.1638806432831.1638794173031.1638794173031.3.2; cid=9; erp=; mba_muid=f2ee9cbf7ebe87ed6c48f42383c2439b; mba_sid=1638804920608891189790226560.4; retina=1; shareChannel=; share_cpin=; share_gpin=; share_open_id=; shshshfp=9ccf147c8b9e985fc9cdf81c2d68c8ba; shshshfpa=cd16f5e0-74b0-6d97-d75f-cf0fe3aa4b28-1636678845; shshshfpb=jx5xIvBcZIPSJENeLWwz7sQ%3D%3D; shshshsID=5d069d16d8abcce4a44bc399cd9a713d_3_1638806441897; source_module=; wqmnx1=MDEyNjM5NTouczNyb2dpZW0xM3I4MzU0MzY5NW5QMSApYjFNR2I0ZTg4TklhMVlVNFdTSCk%3D; wxa_level=1; wq_auth_token=CF59E9AA95B10F3BDE49FA821ECE7559A55444328EDEDA9BA24A3B8C5C2A5BB2; sc_width=414; webp=1; jdpin=jd_6fa8d03aa1aff; open_id=oTGnpnHWZuFZOblwuYQ_23FEBXHs; pin=jd_6fa8d03aa1aff; sfstoken=tk01weba61cb2a8sMyszdXpKM0xxvmGZ4HdlvMd%2FgbWTqy%2BATW6xMtT%2FbRlQxiB0zJCGNdKqdkEKeoVK75r9FjK5QNX8; wq_skey=za70A5D8ED07F1B9DDFE26F5EAE412ADD0BAAE8F2158FD7E455F238D37142ABDD010724BF400CB006494AFF22E7FCF9CB7891721E2B80DBFE1F04EC4F13D3384AEFEA697D458FA2338B298EBC887396107; wq_uin=5144379528; wx_nickname=Charlie9260; pt_key=AAJhp5DSADChmBrVb-42sBzKht6f8qYn4M1rPOXaFS1fwimTJxY0eRgjPLPYaf5kIR9g6OW-xig; pt_pin=jd_6fa8d03aa1aff; jxsid=16387207776152378649; TrackerID=z50VKK4HDHxLUY6dEQAAUOWgOrxut_ZYavuLnINRdiGyWjva1YrsdZozJ1Wq66KwznVYv7u8doBIlA9x4ofQkF_87NX1efHTumO7E_Olx4_DsGS7ulsTZjrxggXY8CYvA6lEzvtsRfkOdtxqzneUDw; warehistory="23893726901,69658725996,100013875646,28977941641,100023829844,100011449373,100025830228,100010807249,59854327300,26364696578,"; visitkey=63019463798011636691119759; wxapp_openid=oA1P50If19D3WI7gSOE4Z83geOPQ`,
+'Accept' : `*/*`,
+'Connection' : `keep-alive`,
+'Referer' : `https://h5.m.jd.com/active/redrain/index.html?id=RRA3DTEaEEhpMCpHReXTZcWn7ejYbAV&cu=true&open=true&utm_source=kong&utm_medium=jingfen&utm_campaign=t_1002070633_&utm_term=6f2b259c32904cf8a31b0228d26affd3`,
+'Accept-Encoding' : `gzip, deflate, br`,
+'Host' : `api.m.jd.com`,
+'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.0(0x18000022) NetType/WIFI Language/zh_CN`,
+'Accept-Language' : `zh-cn`
+};
+const body = ``;
+
+const myRequest = {
+    url: url,
+    method: method,
+    headers: headers,
+    body: body
+};
+
+$task.fetch(myRequest).then(response => {
+    console.log(response.statusCode + "\n\n" + response.body);
+    $done();
+}, reason => {
+    console.log(reason.error);
+    $done();
+});
