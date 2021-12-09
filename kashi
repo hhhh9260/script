@@ -1,0 +1,37 @@
+
+/**
+ * @fileoverview Template to compose HTTP reqeuest.
+ * 
+ */
+
+const url = `https://cjhy-isv.isvjcloud.com/sign/wx/signUp`;
+const method = `POST`;
+const headers = {
+'X-Requested-With' : `XMLHttpRequest`,
+'Connection' : `keep-alive`,
+'Accept-Encoding' : `gzip, deflate, br`,
+'Content-Type' : `application/x-www-form-urlencoded`,
+'Origin' : `https://cjhy-isv.isvjcloud.com`,
+'User-Agent' : `Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.0(0x18000022) NetType/WIFI Language/zh_CN miniProgram`,
+'Cookie' : `__jd_ref_cls=Mnpm_ComponentApplied; mba_muid=163669112172335697542.16390215907637226173612792629.1639021645334; mba_sid=16390215907637226173612792629.4; LZ_TOKEN_KEY=lztokenpage875d71c898aa471d9822e1e6683cd89e; LZ_TOKEN_VALUE=hvnKeIW4D4k9Sy6fpG6imw==; APP_ABBR=CJHY; AUTH_C_USER=Pzr++LgtkNG78T7tJPW229A1Drq3za4lh6LFLfledF1cdSiqMbCx5edEEaL3RnCSkdK3rLBQpEQH9V4tdrrh0w==; __jda=60969652.163669112172335697542.1636691121.1639012718.1639021590.237; __jdb=60969652.4.163669112172335697542|237.1639021590; __jdc=60969652; __jdwxapp=16383730905541392053897.JA2019_5112348.wx91d27dbf599dff74.; lz_wq_auth_token=68468A13853E6599E6016A14ADBB7C1E7D4846A21B0BAC4F02C02A5D2EFE7571; dfs=NMDFP2xj6IxGb%2BCYDEJleCOKJOreZTvOZU747KFEiz3%2FLCozLVXA4BHiHIAA%2BtX0q9IBYqwTvYcuYBaxHQAIWTbK4UGKTH3ZddAIkSR0TNC%2BmoqJGXq3dyA4qpXaQMiRdiiJVNq65%2ByYi%2BaOvJiJnH4LIyDGfB6jqin%2Fvmn0BOboO0qLsbAcFQMeatV5A0U2YEJdBVQOETd2vaU4gTKb%2FaieydsjFFTjsoxSiO4Nu6h5pgPAPOsaUN%2BcIcOXS13qAj9pFuxyU1h9w16l1gPqTRMNSolbJSj82SXEHOx%2FY54%3D; __jdv=60969652%7Candroidapp%7Ct_335139774%7Cappshare%7CWxfriends%7C1638941399149`,
+'Host' : `cjhy-isv.isvjcloud.com`,
+'Referer' : `https://cjhy-isv.isvjcloud.com/sign/signActivity?activityId=360fa6bb16144aa3a1a63b4a0953a039&shareuserid4minipg=Pzr%252B%252BLgtkNG78T7tJPW229A1Drq3za4lh6LFLfledF1cdSiqMbCx5edEEaL3RnCSkdK3rLBQpEQH9V4tdrrh0w%253D%253D&shopid=1000147303&cookie=%7B%22visitkey%22%3A%2266140171608351638373090045%22%2C%22__wga%22%3A%221639012754546.1639012716793.1639006992149.1638373090633.6.52%22%2C%22PPRD_P%22%3A%22EA.17078.26.3-LOGID.1639012754574.781602292-CT.138570.1.1%22%2C%22__jda%22%3A%22122270672.59bbdf9c27864e53c2f135818a1f07b2.1638927884099.1638927884099.1638927884099.1%22%2C%22__jdv%22%3A%22122270672%7Ciosapp%7Ct_335139774%7Cappshare%7CWxfriends%7C1639021643181%22%2C%22unpl%22%3A%22%22%2C%22wxapp_type%22%3A1%2C%22cd_eid%22%3A%22%22%2C%22pinStatus%22%3A%220%22%2C%22wxapp_openid%22%3A%22oA1P50If19D3WI7gSOE4Z83geOPQ%22%2C%22wxapp_version%22%3A%227.12.20%22%2C%22buildtime%22%3A20211202%2C%22md5_pin%22%3A%2203cf071ebabb59c4a2e7bdefb653e116%22%2C%22degrade_level%22%3A0%7D`,
+'Accept-Language' : `zh-cn`,
+'Accept' : `application/json`
+};
+const body = `actId=360fa6bb16144aa3a1a63b4a0953a039&pin=Pzr%252B%252BLgtkNG78T7tJPW229A1Drq3za4lh6LFLfledF1cdSiqMbCx5edEEaL3RnCSkdK3rLBQpEQH9V4tdrrh0w%253D%253D`;
+
+const myRequest = {
+    url: url,
+    method: method,
+    headers: headers,
+    body: body
+};
+
+$task.fetch(myRequest).then(response => {
+    console.log(response.statusCode + "\n\n" + response.body);
+    $done();
+}, reason => {
+    console.log(reason.error);
+    $done();
+});
