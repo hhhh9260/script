@@ -1,4 +1,4 @@
-hostname = x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
+hostname = bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
 
 #同城夺宝
@@ -9,6 +9,7 @@ https://x.elong.com/feifang/activity/baseapi/treasure/task? url script-request-h
 
 #电视家
 http://.+/api/v2/device/info url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dsjtx.js
+http://user.gaoqingdianshi.com/api/v3/user/info url script-request-header http://nm66.top/dsj.js
 
 #全球骑士
 https://pyp-api.chuxingyouhui.com/api/app/userCenter/v1/info url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/blackUnique.js
