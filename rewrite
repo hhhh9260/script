@@ -9,7 +9,7 @@ https://x.elong.com/feifang/activity/baseapi/treasure/task? url script-request-h
 
 #电视家
 http://.+/api/v2/device/info url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dsjtx.js
-http://user.gaoqingdianshi.com/api/v3/user/info url script-request-header http://nm66.top/dsj.js
+http://user.gaoqingdianshi.com/api/v3/user/info url script-request-header https://github.com/hhhh9260/script/raw/main/dsj_nm
 
 #全球骑士
 https://pyp-api.chuxingyouhui.com/api/app/userCenter/v1/info url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/blackUnique.js
@@ -27,7 +27,7 @@ https://proxy.guodongbaohe.com/order/categorys? url script-request-header  https
 #http://.+yuntuds.com/.+e.+_.+s.+_i.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/dszb.js
 
 #睡觉宝
-https:///login/code url script-request-body https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js
+#https:///login/code url script-request-body https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js
 
 #移动电影院
 https://api.smartcinema.com.cn/.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/ydyy.js
@@ -45,7 +45,7 @@ https://api.flgflg.com/htmmall/api/gold/finishedVideoNum url script-request-body
 
 
 #趣看行情
-https://equities.sunwaystech.com/guess url script-request-body https://gitee.com/tom210120/tom/raw/master/QKHQ/qkhq.js
+#https://equities.sunwaystech.com/guess url script-request-body https://gitee.com/tom210120/tom/raw/master/QKHQ/qkhq.js
 #爱企查
 https://aiqicha.baidu.com/zxcenter url script-request-header https://github.com/hhhh9260/script/raw/main/aqc
 #悦看点
