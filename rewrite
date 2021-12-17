@@ -34,11 +34,11 @@ https://api.smartcinema.com.cn/.+ url script-request-header https://raw.githubus
 
 
 #闪辆
-https://newvideo.autohome.com.cn/openapi/activity-api/checkin/query_list url script-request-header https://github.com/hhhh9260/script/raw/main/shanliang
+#https://newvideo.autohome.com.cn/openapi/activity-api/checkin/query_list url script-request-header https://github.com/hhhh9260/script/raw/main/shanliang
 
 
 #腾讯自选股
-https://wzq.tenpay.com/cgi-bin/activity_task_daily.fcgi?  url script-request-header https://github.com/hhhh9260/script/raw/main/txzxg
+https://wzq.tenpay.com/cgi-bin/activity_task_daily.fcgi?  url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstock.js
 #返利购 
 https://api.flgflg.com/htmmall/api/gold/finishedVideoNum url script-request-body https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js 
 
