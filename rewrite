@@ -1,5 +1,9 @@
 hostname = bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
+
+#美的美居
+http://mp-prod.smartmidea.+v1/certificate/app/list url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/mdmj.js
+
 #看点宝
 https://yuekandian.yichengw.cn/api/v1/member/profile url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ydd.js
 
