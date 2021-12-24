@@ -1,4 +1,4 @@
-hostname = bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
+hostname = *.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,-*.snssdk.com,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
 #追追看点
 http://www.xiancao.cool/api/user/indexInfo url script-request-header https://gitee.com/gossh520/script/raw/master/zzkdapp.js
@@ -61,7 +61,8 @@ https://aiqicha.baidu.com/zxcenter url script-request-header https://github.com/
 
 
 #番茄小说
-luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
+#luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
+luckycat/novel/v1/task/sign_in/.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqxs.js
 #聚看点
 https://www.xiaodouzhuan.cn/jkd/user/userlive.action url script-request-body http://47.101.146.160/scripts/jkd.js
 
