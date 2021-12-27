@@ -1,5 +1,7 @@
-hostname =*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
+hostname =.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
+#欢乐红包
+https://.+n.bdcloudapi.com/1c82a43e9227? url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/hlhb.js
 #番茄畅听
 luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/fqct.js
 
