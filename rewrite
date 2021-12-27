@@ -57,7 +57,7 @@ https://api.flgflg.com/htmmall/api/gold/finishedVideoNum url script-request-body
 
 
 #趣看行情
-https://equities.sunwaystech.com/guess url script-request-body https://gitee.com/tom210120/tom/raw/master/QKHQ/qkhq.js
+https://equities.sunwaystech.com/guess url script-request-body https://raw.githubusercontent.com/hhhh9260/script/main/q%20k%20h%20q
 #爱企查
 https://aiqicha.baidu.com/zxcenter url script-request-header https://github.com/hhhh9260/script/raw/main/aqc
 #悦看点
