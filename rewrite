@@ -3,8 +3,7 @@ hostname =.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua
 #欢乐红包
 https://.+n.bdcloudapi.com/1c82a43e9227? url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/hlhb.js
 #番茄畅听
-luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/fqct.js
-
+luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js
 
 #追追看点
 http://www.xiancao.cool/api/user/indexInfo url script-request-header https://gitee.com/gossh520/script/raw/master/zzkdapp.js
