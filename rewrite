@@ -13,9 +13,6 @@ https://.+n.bdcloudapi.com/1c82a43e9227? url script-request-header https://raw.g
 #番茄畅听
 luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js
 
-#追追看点
-http://www.xiancao.cool/api/user/indexInfo url script-request-header https://gitee.com/gossh520/script/raw/master/zzkdapp.js
-
 #美的美居
 http://mp-prod.smartmidea.+v1/certificate/app/list url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/mdmj.js
 
