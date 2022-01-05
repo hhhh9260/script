@@ -1,5 +1,7 @@
-hostname =dj.palmestore.com,*.palmestore.com,*.amemv.com,.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
+hostname = *.reader.qq.com,dj.palmestore.com,*.palmestore.com,*.amemv.com,.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
+#qq阅读
+https://eventv3.reader.qq.com/activity/pkg11955/promoteReadTimeInit url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/qqyd.js
 #得间小说
 https://dj.palmestore.com/.+/info/getUserInfo? url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js
 https://dj.palmestore.com/.+video/report? url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js
