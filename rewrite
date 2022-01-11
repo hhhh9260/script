@@ -91,7 +91,7 @@ https://www.xiaodouzhuan.cn/jkd/user/userlive.action url script-request-body htt
 https://api.cashtoutiao.com/frontend/sign/record\S+ url script-request-body http://47.101.146.160/scripts/htt.js
 
 #九章
-https://api.st615.com/v1/user/info? url script-request-header https://raw.githubusercontent.com/xl2101200/-/main/jztt.js
+https://api.st615.com/v1/user/info? url script-request-header tomjztt.js
 https://api.st615.com/v1/user/info\?token=\S+ url script-request-header http://47.101.146.160/scripts/jzread.js
 
 #都爱玩
