@@ -1,11 +1,9 @@
-hostname = ranlv.lvfacn.com,api.awy2020.com,*.reader.qq.com,*.palmestore.com,*.amemv.com,.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
+hostname = ranlv.lvfacn.com,*.reader.qq.com,*.palmestore.com,*.amemv.com,.bdcloudapi.com,*.snssdk.com,-*.snssdk.com,*.fqnovel.com,bp-api.coohua.com,x.elong.com,*.chuxingyouhui.com,ms.jr.jd.com,proxy.guodongbaohe.com,*.yuntuds.com,mapi.shuijiaobao.cn,api.smartcinema.com.cn,newvideo.autohome.com.cn,wzq.tenpay.com,api.flgflg.com,equities.sunwaystech.com,aiqicha.baidu.com,yuekandian.yichengw.cn,*.xiaodouzhuan.cn,api.cashtoutiao.com,api.st615.com,v3.sdk.haowusong.com,api-sport.chenglie.tech,om
 
 
 #燃旅
 https://ranlv.lvfacn.com/api.php/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.js
 
-#爱微影
-https://.+/api/index  url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/awy.js
 
 #qq阅读
 https://eventv3.reader.qq.com/activity/pkg11955/promoteReadTimeInit url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/qqyd.js
