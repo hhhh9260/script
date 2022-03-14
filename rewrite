@@ -12,22 +12,8 @@ https://eventv3.reader.qq.com/activity/pkg11955/promoteReadTimeInit url script-r
 uckycat/aweme/v1/task/sign_in/detail? url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js
 luckycat/aweme/v1/task/done/(read|treasure_task|excitation_ad_treasure_box|excitation_ad)? url script-request-header https://cdn.jsdelivr.net/gh/bluesmallpig/scripts/dyjsb.js
 
-#欢乐红包
-https://.+n.bdcloudapi.com/1c82a43e9227? url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/hlhb.js
 #番茄畅听
 luckycat/novel_fm/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js
-
-#美的美居
-http://mp-prod.smartmidea.+v1/certificate/app/list url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/mdmj.js
-
-#看点宝
-https://yuekandian.yichengw.cn/api/v1/member/profile url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ydd.js
-
-#同城夺宝
-https://x.elong.com/feifang/activity/baseapi/treasure/task? url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tcdb.js
-
-#悦多多
-#https://yuekandian.yichengw.cn/api/v1/member/profile url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/ydd.js
 
 #电视家
 http://.+/api/v2/device/info url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/dsjtx.js
@@ -51,8 +37,6 @@ https://market.chuxingyouhui.com/promo-bargain-api/activity/mqq/api/indexTopInfo
 #睡觉宝
 #https:///login/code url script-request-body https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js
 
-#移动电影院
-https://api.smartcinema.com.cn/.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/ydyy.js
 
 
 #闪辆
