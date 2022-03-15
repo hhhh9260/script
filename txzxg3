@@ -79,7 +79,7 @@ let notifyStr = ""
 
 let numUser = 0
 let totalUser = 0
-let shareFlag = 0 //用户数多于1且打开助力开关，才会做助力任务
+let shareFlag = 1 //用户数多于1且打开助力开关，才会做助力任务
 let helpUser = 0
 let scanList = []
 let nickname = []
