@@ -43,7 +43,7 @@ https://aiqicha.baidu.com/zxcenter url script-request-header https://github.com/
 
 #番茄小说
 #luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
-luckycat/novel/v1/task/sign_in/.+ url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqxs.js
+luckycat/novel/v1/task/sign_in/.+ url script-request-header http://script.frp.aiuyo.com:8680/scripts/fqxs.js
 
 #九章
 https://api.st615.com/v1/user/info? url script-request-header tomjztt.js
